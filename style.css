@@ -1,0 +1,17 @@
+input:hover{
+    color: rebeccapurple;
+    border-color: blue;
+}
+input:focus{
+    background-color: rgba(255, 0, 0, 0.192);
+    color: rgb(208, 255, 0);
+    outline-color: chartreuse;
+}
+a:active{
+    color: rgb(255, 0, 255);
+}
+
+a:visited{
+    color: red;
+    text-decoration: none;
+}
