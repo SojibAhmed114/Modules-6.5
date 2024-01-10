@@ -41,3 +41,44 @@ a:hover{
 .numberthree:nth-child(){
     color: red;
 }
+.position-container{
+    border: 1px solid blue;
+    position: relative;
+}
+.photo img{
+    border: 1px solid red;
+    width: 200px;
+}
+/* .one{
+    position: relative;
+    top: -50px;
+    left: 40px;
+} */
+/* .two{
+    position: absolute ;
+    left: 50px;
+    bottom: 1px;
+} */
+.thrid{
+    position: sticky;
+    top: 0px;
+}
+.test-container{
+    margin-top: 10px;
+    background-color: #f5f5;
+    display: flex;
+    gap: 20px;
+}
+.only-text img{
+    width: 290px;
+}
+.only-text{
+    width: 300px;
+    border: 1px solid darkblue;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.stikey{
+    position: sticky;
+    top: 0;
+}
